@@ -1,7 +1,6 @@
 # Fruit_cart
 
 Fruit cart contains a set of retailers who sell the fruits mentioned below at different prices. They hold different quantities of the mentioned fruits.
-
 1. Banana
 2. Orange
 3. Apple
@@ -18,6 +17,8 @@ MySQL database named fruits is created. The tables in the database include [Tabl
 Based on the chosen combination, the given condition is verified by checking the condition _ax+by+cz=d_ where a,b,c are the prices of the items and x,y,z are valid quantities that satisfy the condition.
 
 After obtaining valid quantities of x,y and z ,new rows are inserted into order_details and cart_order tables and the quantities are updated in the retailer_cart table.
+
+Instructions in [Instructions](/Instructions.pdf)
 
   
   
