@@ -11,7 +11,8 @@ Fruit cart contains a set of retailers who sell the fruits mentioned below at di
 8. Pomegranate
 9. Guava
 
-MySQL database named fruits is created. The tables in the database include [Tables](/tables_in_database.py)
+MySQL database named [fruits](/fruit_cart_data.py) is created. The tables in the database include [Tables](/tables_in_database.py).
+
 <p>Retailer_cart displays fruits from all retailers and allows shopper to select a store to shop from. Shopper chooses from all combinations of selecting three fruits from the list. </p>
 
 Based on the chosen combination, the given condition is verified by checking the condition _ax+by+cz=d_ where a,b,c are the prices of the items and x,y,z are valid quantities that satisfy the condition.
