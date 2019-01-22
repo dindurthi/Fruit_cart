@@ -13,7 +13,14 @@ Fruit cart contains a set of retailers who sell the fruits mentioned below at di
 
 MySQL database named [fruits](/fruit_cart_data.py) is created. The tables in the database include [Tables](/tables_in_database.py).
 
-<p>Retailer_cart displays fruits from all retailers and allows shopper to select a store to shop from. Shopper chooses from all combinations of selecting three fruits from the list. </p>
+Data is inserted into-
+1. [retailer](/table_retailer_data.py)
+2. [retailer_store](/table_retailer_store_data.py)
+3. [shopper](/table_shopper_data.py)
+4. [retailer_cart](/table_retailer_cart_data.py) 
+   using SQL INSERT statement.
+
+<p>Retailer_cart displays fruits from all retailers and allows shopper to select a store to shop from. Shopper chooses from all combinations of selecting three fruits from the list.
 
 Based on the chosen combination, the given condition is verified by checking the condition _ax+by+cz=d_ where a,b,c are the prices of the items and x,y,z are valid quantities that satisfy the condition.
 
