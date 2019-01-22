@@ -20,8 +20,9 @@ Data is inserted into-
 4. [retailer_cart](/table_retailer_cart_data.py) 
    using SQL INSERT statement.
 
-<p>Retailer_cart displays fruits from all retailers and allows shopper to select a store to shop from. Shopper chooses from all combinations of selecting three fruits from the list.
+<p>Retailer_cart displays fruits from all retailers and allows shopper to select a store to shop from. Shopper chooses from all combinations of selecting three fruits from the list. 
 
+[Combinations of fruits](/combinations_of_fruits.py) gives the combinations of fruits .
 Based on the chosen combination, the given condition is verified by checking the condition _ax+by+cz=d_ where a,b,c are the prices of the items and x,y,z are valid quantities that satisfy the condition.
 
 After obtaining valid quantities of x,y and z ,new rows are inserted into order_details and cart_order tables and the quantities are updated in the retailer_cart table.
